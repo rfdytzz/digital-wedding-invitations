@@ -15,7 +15,11 @@ It is interactive, elegant, and fully responsive, allowing guests to open the in
 
 🛠️ Tech Stack
 HTML5
+
 Bootstrap 5
+
 JavaScript
+
 Animate.css
+
 Google Fonts
