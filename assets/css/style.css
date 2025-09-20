@@ -1,0 +1,105 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Halaman Input Nama */
+#welcomePage {
+  height: 100vh;
+  background: url("https://i.pinimg.com/736x/d9/0b/33/d90b3370ddcfa48a70eebf7118a44c32.jpg")
+    center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#welcomePage .overlay {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #333;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+#welcomePage h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #c44536;
+}
+
+/* Halaman Undangan */
+#invitationPage {
+  display: none;
+  min-height: 100vh;
+  background: url("https://i.pinimg.com/1200x/69/6e/40/696e40288349d2c68150b6427fb699c2.jpg")
+    center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 15px;
+  text-align: center;
+}
+#invitationPage .card-invite {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(15px);
+  padding: 50px 30px;
+  border-radius: 25px;
+  max-width: 850px;
+  width: 100%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeInUp 1.2s ease;
+}
+#invitationPage h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  color: #c44536;
+}
+#invitationPage h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #333;
+}
+.btn-custom {
+  background: #c44536;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 12px 25px;
+}
+.btn-custom:hover {
+  background: #a6392c;
+  color: #fff;
+}
+
+/* Countdown */
+#countdown {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #c44536;
+}
+
+iframe {
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
